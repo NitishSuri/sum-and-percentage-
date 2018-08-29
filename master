@@ -1,0 +1,18 @@
+# sum-and-percentage-
+//4 program on c
+#include<stdio.h>
+int main()
+{
+float sub1,sub2,sub3,perc,sum;
+printf("enter the marks of sub1 \n");
+scanf("%f",&sub1);
+printf("enter the marks of sub2 \n");
+scanf("%f",&sub2);
+printf("enter the marks of sub3 \n");
+scanf("%f",&sub3);
+sum=sub1+sub2+sub3;
+perc=sum/3;
+printf("congratulations! you scored %f marks out of 300 \n",sum);
+printf("your percentage is %f %% \n",perc);
+return (0);
+}
